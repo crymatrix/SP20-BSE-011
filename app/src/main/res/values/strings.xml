@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="search_go">Search</string>
+    <string name="insert_go">Insert</string>
+    <string name="welcome">Please select the appropriate action</string>
+
+</resources>

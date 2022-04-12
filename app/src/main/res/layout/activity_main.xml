@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="100dp"
+        android:layout_height="74dp"
+        android:insetTop="30dp"
+        android:layout_gravity="top|right"
+        android:text="@string/insert_go"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="100dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="top|right"
+        android:text="@string/search_go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert" />
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome" />
+
+    <TextView
+
+        android:id="@+id/showdataview"
+        android:layout_width="100pt"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Data" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/searchinput"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:hint="Search By email"
+        android:layout_marginTop="14dp"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/searchaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="50dp"
+        android:text="Button" />
+</FrameLayout>
